@@ -1,0 +1,63 @@
+Guide to Alex's Arch Install
+
+Installed tools:
+
+Display management: nwg-displays
+X input checker: xev
+Storage viewer: filelight
+File management: thunar
+Terminal: kitty 
+Power management: tlp, powertop
+Performace monitor: btop
+Image viewer: feh
+ls alternative: eza
+cat alternative: bat
+cd alternative: zoxide
+Terminal file management: yazi
+OneDrive sync: onedrive (AUR)
+Screenshots: grim
+VPN: openconnect
+ZRAM setup: zramswap (AUR)
+Virtualization: qemu, libvirt, virt-manager
+Text Editor: neovim, emacs-nativecomp
+Flakes: nix
+Web browser: firefox
+Chat: discord, signal-desktop, irssi
+Multiplexer: tmux
+LaTeX: texlive
+Package manager helper: yay
+Graphing calculator: geogebra
+Calculator: qalculate
+Games: steam, minecraft-launcher, EmptyEpsilon
+Network tools: nmap, traceroute
+Fonts: ttf-nerd-fonts-symbols-mono
+Image editor: gimp
+Notification server: dunst
+Clipboard: wl-clipboard
+Document converter: pandoc
+Backups: timeshift
+Discord: vesktop (AUR)
+XWayland: xorg-xwayland
+Autotiling: autotiling
+
+Config files:
+
+sway: ~/.config/sway/config
+i3status: ~/.i3status.conf
+nvim: ~/.config/nvim/init.vim
+zshrc: ~/.zshrc
+dunst: ~/.config/dunst/dunstrc
+ssh keys: ~/.ssh/*
+git: ~/.gitconfig, ~/.config/git/*
+tmux: ~/.tmux.conf
+profile: /etc/profile
+emacs daemon: ~/.config/systemd/user/emacs.service
+doom: ~/.config/doom/*
+
+Todo:
+
+Ask Judah and Andrew about configs (bashrc, aliases, etc)
+Once camera works, set up howdy
+Set up airpods play/pause (skip?)
+Fix mouse vs touchpad scrolling
+Set up git/home-manager for config file backups
