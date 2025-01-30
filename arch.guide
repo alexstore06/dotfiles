@@ -19,10 +19,10 @@ Screenshots: grim
 VPN: openconnect
 ZRAM setup: zramswap (AUR)
 Virtualization: qemu, libvirt, virt-manager
-Text Editor: neovim, emacs-nativecomp
+Text Editor: neovim, emacs-nativecomp, code
 Flakes: nix
 Web browser: firefox
-Chat: discord, signal-desktop, irssi
+Chat: discord, signal-desktop, irssi, beeper-latest-bin
 Multiplexer: tmux
 LaTeX: texlive
 Package manager helper: yay
@@ -39,6 +39,8 @@ Backups: timeshift
 Discord: vesktop (AUR)
 XWayland: xorg-xwayland
 Autotiling: autotiling
+Debugger: gdb
+Fan control: nbfc
 
 Config files:
 
@@ -53,6 +55,9 @@ tmux: ~/.tmux.conf
 profile: /etc/profile
 emacs daemon: ~/.config/systemd/user/emacs.service
 doom: ~/.config/doom/*
+zramswap: /etc/zramswap.conf
+nbfc: /opt/nbfc/Configs (put HP...xml here)
+
 
 Todo:
 

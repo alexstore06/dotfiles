@@ -1,0 +1,17 @@
+[Install]
+WantedBy=default.target
+
+[Service]
+Environment=COLORTERM=truecolor
+Environment=TERM=kitty
+ExecStart=/usr/bin/emacs --fg-daemon
+Restart=on-failure
+SuccessExitStatus=15
+Type=notify
+
+[Unit]
+After=graphical-session.target
+Description=Emacs text editor
+Documentation=info:emacs man:emacs(1) https://gnu.org/software/emacs/
+PartOf=graphical-session.target
+X-RestartIfChanged=false
