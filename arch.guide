@@ -41,7 +41,7 @@ XWayland: xorg-xwayland
 Autotiling: autotiling
 Debugger: gdb
 Fan control: nbfc
-Menu program: rofi-wayland (ln -s /bin/rofi /bin/dmenu)
+Menu program: rofi-wayland
 
 Config files:
 
