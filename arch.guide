@@ -18,18 +18,18 @@ OneDrive sync: onedrive (AUR)
 Screenshots: grim
 VPN: openconnect
 ZRAM setup: zramswap (AUR)
-Virtualization: qemu, libvirt, virt-manager
+Virtualization: qemu, libvirt, virt-manager, virtualbox
 Text Editor: neovim, emacs-nativecomp, code
 Flakes: nix
 Web browser: firefox
 Chat: discord, signal-desktop, irssi, beeper-latest-bin
 Multiplexer: tmux
 LaTeX: texlive
-Package manager helper: yay
+Package manager helper: yay (AUR)
 Graphing calculator: geogebra
 Calculator: qalculate
 Games: steam, minecraft-launcher, EmptyEpsilon
-Network tools: nmap, traceroute
+Network tools: nmap, traceroute, metasploit
 Fonts: ttf-nerd-fonts-symbols-mono
 Image editor: gimp
 Notification server: dunst
@@ -41,6 +41,7 @@ XWayland: xorg-xwayland
 Autotiling: autotiling
 Debugger: gdb
 Fan control: nbfc
+Menu program: rofi-wayland (ln -s /bin/rofi /bin/dmenu)
 
 Config files:
 
@@ -61,8 +62,4 @@ nbfc: /opt/nbfc/Configs (put HP...xml here)
 
 Todo:
 
-Ask Judah and Andrew about configs (bashrc, aliases, etc)
-Once camera works, set up howdy
 Set up airpods play/pause (skip?)
-Fix mouse vs touchpad scrolling
-Set up git/home-manager for config file backups
